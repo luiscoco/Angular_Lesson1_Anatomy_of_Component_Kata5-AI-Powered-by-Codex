@@ -1,0 +1,25 @@
+<main class="page">
+  <h1>Style Leakage Experiment</h1>
+  <p class="lead">
+    Both components use a <code>.box</code> class. The global style applies to both,
+    but each component's <code>.box</code> stays isolated by Angular's scoped attributes.
+  </p>
+
+  <!--
+    Inspect the DOM: Angular adds scoped attributes (e.g., _ngcontent-xxx).
+    Example: <app-red-box _nghost-abc> ... <div class="box" _ngcontent-abc>...</div>
+  -->
+
+  <section class="grid">
+    <app-red-box></app-red-box>
+    <app-blue-box></app-blue-box>
+  </section>
+
+  <section class="reflection">
+    <h2>Reflection</h2>
+    <p>
+      Angular prevents component styles from leaking across the app by default,
+      avoiding accidental global overrides and visual regressions.
+    </p>
+  </section>
+</main>

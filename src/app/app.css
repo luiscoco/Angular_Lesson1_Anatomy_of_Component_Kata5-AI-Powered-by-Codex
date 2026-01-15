@@ -1,0 +1,25 @@
+.page {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  margin: 32px auto;
+  max-width: 900px;
+  padding: 0 16px;
+}
+
+.lead {
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.reflection {
+  margin-top: 32px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
