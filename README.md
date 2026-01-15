@@ -2,6 +2,25 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.6.
 
+## Kata5 Prompt
+
+```
+Kata 5 — Style Leakage Experiment
+Task:
+Create two components:
+•	RedBoxComponent
+•	BlueBoxComponent
+Apply a global .box {} style and a component-level .box {} style.
+Constraints:
+•	Do NOT disable encapsulation
+•	Inspect generated DOM attributes
+Deliverable:
+•	CSS + HTML showing isolation
+•	Screenshot or DOM comment showing scoping
+Reflection Trigger:
+What problem is Angular preventing by default?
+```
+
 ## Development server
 
 To start a local development server, run:
